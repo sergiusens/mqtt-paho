@@ -8,6 +8,7 @@ confinement: strict
 parts:
     mqtt-paho:
         plugin: nil
+        source: .
     python3:
         plugin: python3
         source: https://github.com/eclipse/paho.mqtt.python
