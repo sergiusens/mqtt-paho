@@ -1,0 +1,20 @@
+name: mqtt-paho
+version: 0
+summary: This is a showcase of parts for mqtt-paho
+description: 
+  Two parts are provided, one for python2 and another for python3
+confinement: strict
+
+parts:
+    mqtt-paho:
+        plugin: nil
+    python3:
+        plugin: python3
+        source: https://github.com/eclipse/paho.mqtt.python
+        source-type: git
+        source-tag: v1.1
+    python2:
+        plugin: python2
+        source: https://github.com/eclipse/paho.mqtt.python
+        source-type: git
+        source-tag: v1.1
